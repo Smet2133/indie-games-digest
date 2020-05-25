@@ -1,0 +1,263 @@
+/*если будешь менять в моих стилzх чего-то,сохрани исходныq вариант на всякий случай)*/
+
+body{
+	background-image:url(images/Interface/Main_background.jpg) ;
+    background-repeat:no repeat;
+    background-size:cover;
+    background-attachment:fixed;
+	color: #ff8800;
+	}
+	
+TABLE.main{
+   	font-family: Arial, Verdana,  sans-serif; /* Семейство шрифтов */
+	font-size: 13pt;
+	width: 100%;
+	padding: 10px;
+    border-spacing: 10px;
+
+    }
+td {
+	text-align:center;
+	}
+td.none{
+	border: 0px;
+	text-align:left;
+	margin-left: 10px;
+	}
+td.ppnone{
+	border: 0px;
+	text-align:center;
+	margin-left: 10px;
+	}
+td.ppnoneri{
+	border: 0px;
+	text-align:right;
+	margin-left: 10px;
+	}
+table.pers{
+	margin: auto;
+	width: 90%;
+	}
+/*таблица на странице статьи,в которой форма добавления комментария сидит*/
+table.submitcommenttable{
+	width:95%;
+	margin-right:5%;
+	border-spacing:0;
+	}
+table.submitcommenttable td.text{
+	text-align:center;
+	}
+			
+table.submitcommenttable td{
+	border:0;
+	}
+	
+	
+	
+table.submitcommenttable td.input{
+	padding:0;
+	}
+/*собственно таблица,в которой выводимые комментарии расположены*/
+table.commentstable{
+	border-spacing:0;
+    width:95%;
+    margin:auto;
+	}
+
+.textt{width:100%}
+
+	
+/* #c12{
+	background:  rgba(0,0,0,0.9); 
+
+	box-shadow: 0 0 20px 20px rgba(0,0,0,0.99); 
+	}	 */
+img {
+    border:ridge 3px orange;
+    }
+a img:hover{
+    border:ridge 3px #cc5500;
+    }
+img.logo{
+	border: 0px;
+	opacity: 0.9;
+	}	
+div.d_forimg{
+	background:  rgba(0,0,0,0.9); 
+	box-shadow: 0 0 20px 20px /* rgba(255,204,0,0.7) */ rgba(0,0,0,0.8) ; 	
+	width: 420px;
+	margin:auto;
+	}
+div.com_table_div{
+    max-width:inherit;
+    }
+.nonebord{
+    border: 0px;
+    }
+.table_ind{
+	width: 100%;
+	margin-top: 20px;
+	}	
+.emptyrow{ height: 40px;}
+
+
+#c11, #c13, #c21, #c22{
+
+	/*background:  rgba(121,164,227,0.9); */
+	background:  rgba(0,0,0,0.9); 
+	border: 5px solid orange;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+	border-style: groove;
+	}
+/*Убрал возможность изменять размеры мульти текстбокса в форме отправки комментария*/
+textarea.commentstextarea {
+    resize:none;
+    }
+a{
+	color:#f4c430;
+    text-decoration: none;
+	}		
+a:visited{
+	color: #f4c430;
+	}	
+a:hover{
+    color:#cc5500;
+    }
+.d22 {
+    min-width: 550px;
+    }
+.d_edge {
+    width: 200px;
+    }
+
+	
+#c11 {
+	width: 200px; 
+	/* min-width:100;
+	max-width: 100;*/
+	height: 200px; 
+	border-radius: 40px;
+	}
+   
+td.center{
+	min-width:500px;
+	}   
+/*Ячейка таблицы комментариев,любая*/
+td.com_cell{
+    padding:8px;
+    border:ridge 3px orange;
+    }
+td.com_author_cell{
+    border-right:ridge 3px orange;
+    padding-bottom: 5px;
+    vertical-align:top;
+    }
+td.com_time_and_title_cell{
+    border-bottom:ridge 3px orange;
+    }
+div.com_time_and_title_div{
+    max-width: 550px;
+    word-wrap: break-word;
+    text-align:left;
+    }
+/*Вместо тд я тут поставил див,тк нужно задать максимальную ширину,посмотри,как,если сможешь, нам нужно,
+чтоб текст растягивался вместе с таблицей,но не растягивал её сам. Добавь очень длинный комментарий,ломающий 
+Разметку,он разобъется,чтоб влезать,но это фиксированно,нужно сделать,чтоб растягивался,как заголовок коммента*/
+div.com_text_div{
+    max-width: 550px;/*это фиксирует ширину текта*/
+    word-wrap: break-word;
+    }
+div.index_text{
+    margin:10px;
+    }
+#c12 { 
+	border: 0px;
+	}
+#c13 { 
+	border-radius: 40px;
+	width: 200px; 
+	}
+#c21 {
+	border-radius: 40px;
+	width: 200px; 
+	height: 200px;
+	font-size: 10pt;
+	}   
+#c22 {
+	border-radius: 40px;
+	height: 600px;
+	vertical-align: top;
+	text-align:center;
+	padding:4px;
+	}   
+#c23 {
+	border: 0px;
+	width: 200px; 
+	}   
+#c32 {
+	width: 100%; 
+	height: 30px;
+	border: 3px solid black; 
+	border-radius: 40px;
+	background:  rgba(152,35,38,0.9); 
+	box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+	}      
+#c211{
+	border: 0px;
+	}
+#c231{
+	border: 0px;
+	}
+   
+.leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 20px; /* Отступы вокруг картинки */
+	}
+.rightimg  {
+    float: right; /* Выравнивание по правому краю  */ 
+    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+	}
+
+.line { 
+    border-bottom: 2px solid #aaf; /* Параметры линии */ 
+    margin-bottom: 20px; /* Отступ слева */
+    padding-bottom: 10px; /* Расстояние от линии до текста */ 
+	}
+.but_fav {
+	float:right;
+	}
+/*По большей части скопипастил ил htmlbook'a,*/ 
+.button {
+    background: -moz-linear-gradient(#ff8800, #cc5500, #ff8800);
+    background: -webkit-gradient(linear, 0 0, 0  100%, from(#ff8800), to(#ff8800), color-stop(0.5, #cc5500));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff8800', endColorstr='#cc5500');
+    padding: 3px 7px;
+    color: black;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 3px outset darkorange;
+    cursor: pointer;
+    }
+
+form.form input::-webkit-input-placeholder {
+    color: #cccccc;
+   }
+form.form input::-moz-placeholder {
+    color: #cccccc;
+   } 
+form.form input {
+    border:inset 3px #ff8800;
+    border-radius: 4px;
+   }	
+form.form textarea {
+    border:inset 3px #ff8800;
+    border-radius: 4px;
+   }	
+form.AddUserArticleForm textarea{
+    resize:none;
+    width:100%;
+   }
+form.AddUserArticleForm table{
+    width:100%;
+   }

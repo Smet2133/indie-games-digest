@@ -1,0 +1,9 @@
+Space Engineers is a sandbox game about engineering, construction and maintenance of space works. Players build space ships and space stations of various sizes and utilization (civil and military), pilot ships and perform asteroid mining. 
+
+Space Engineers utilizes a realistic volumetric-based physics engine: all objects can be assembled, disassembled, damaged and destroyed. 
+
+Volumetric objects are structures composed from block-like modules interlocked in a grid. Volumetric objects behave like real physical objects with mass, inertia and velocity. Individual modules have real volume and storage capacity. 
+
+Space Engineers is inspired by reality and by how things work. Think about modern-day NASA technology extrapolated 60 years into the future. Space Engineers strives to follow the laws of physics and doesn't use technologies that wouldn't be feasible in the near future. 
+
+Space Engineers concentrates on construction aspects, but can be played as a tactical shooter as well. We expect players to avoid engaging in direct man-to-man combat and instead use their creativity and engineering skills to build war machines and fortifications. Space Engineers shouldn&#8217;t be about troops; it should be about the machinery you build.

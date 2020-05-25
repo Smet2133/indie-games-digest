@@ -1,0 +1,5 @@
+The only aim in Rust is to survive.
+
+To do this you will need to overcome struggles such as hunger, thirst and cold. Build a fire. Build a shelter. Kill animals for meat. Protect yourself from other players. Create alliances with other players and together form a town. 
+
+Whatever it takes to survive.
